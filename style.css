@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.worksheet {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 20px 0 10px;
+    color: #444;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+table th {
+    background-color: #d32f2f;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+table td {
+    background-color: #fff;
+}
+
+ul.checkbox-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.checkbox-list li {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.image {
+    text-align: center;
+    flex: 1;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.image p {
+    font-size: 0.95em;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+    transform: scale(1.2);
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for alignment */
+    gap: 15px; /* Space between rows */
+    margin-top: 10px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between text, slash, and checkboxes */
+    font-size: 1em;
+}
+
+.checkbox-item span {
+    font-weight: normal;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2); /* Make checkboxes larger */
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.exercise {
+    margin-bottom: 20px;
+}

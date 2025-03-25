@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.worksheet {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.lektion {
+    font-size: 0.9em;
+    color: #666;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.subtitle {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.number-circle {
+    background-color: #d32f2f;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.line {
+    display: inline-block;
+    width: 300px;
+    border-bottom: 1px solid #333;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.highlight {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.sound-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.conversation {
+    background-color: #fce4ec;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.conversation p {
+    margin: 5px 0;
+}
+
+.tshirt-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tshirt-images img {
+    max-width: 30%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.true-false {
+    list-style: none;
+    padding: 0;
+}
+
+.true-false li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.tf {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
